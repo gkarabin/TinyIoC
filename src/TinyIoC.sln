@@ -32,6 +32,7 @@ Global
 		TinyIoC.Tests.ExternalTypes.Shared\TinyIoC.Tests.ExternalTypes.Shared.projitems*{0bd0564c-3bab-4df5-a11f-07d042433953}*SharedItemsImports = 5
 		TinyIoC.Tests.Shared\TinyIoC.Tests.Shared.projitems*{41ef3bed-892d-4d0a-a29e-3b2a7a4da13e}*SharedItemsImports = 13
 		TinyIoC.Shared\TinyIoC.Shared.projitems*{72ff4023-dedf-40d2-8e54-1bb3e9c38c5c}*SharedItemsImports = 4
+		TinyIoC.Tests.Shared\TinyIoC.Tests.Shared.projitems*{90b10611-d346-41d9-abcd-31176b2b0f3e}*SharedItemsImports = 5
 		TinyIoC.Shared\TinyIoC.Shared.projitems*{9516956f-c44f-464c-b43c-ab47777e0321}*SharedItemsImports = 5
 		TinyIoC.Tests.ExternalTypes.Shared\TinyIoC.Tests.ExternalTypes.Shared.projitems*{b97f42b1-a4b4-448f-9429-7b84c5c96022}*SharedItemsImports = 13
 		TinyIoC.Tests.Shared\TinyIoC.Tests.Shared.projitems*{c0f65d37-0df3-43f6-9338-8fc57453876a}*SharedItemsImports = 4
