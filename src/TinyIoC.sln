@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3549B35C-E6A0-4007-8BBD-C82396AA28A1}"
 	ProjectSection(SolutionItems) = preProject
 		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
@@ -13,13 +15,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyIoC", "TinyIoC\TinyIoC.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyIoC.Tests.ExternalTypes", "TinyIoC.Tests.ExternalTypes\TinyIoC.Tests.ExternalTypes.csproj", "{F6422C73-C40A-489A-A822-387E3098B2F1}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TinyIoC.Tests.Shared", "TinyIoC.Tests.Shared\TinyIoC.Tests.Shared.shproj", "{41EF3BED-892D-4D0A-A29E-3B2A7A4DA13E}"
+EndProject
 Global
-	GlobalSection(SubversionScc) = preSolution
-		Svn-Managed = True
-		Manager = AnkhSVN - Subversion Support for Visual Studio
-	EndGlobalSection
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = TinyIoC.vsmdi
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		TinyIoC.Tests.Shared\TinyIoC.Tests.Shared.projitems*{41ef3bed-892d-4d0a-a29e-3b2a7a4da13e}*SharedItemsImports = 13
+		TinyIoC.Tests.Shared\TinyIoC.Tests.Shared.projitems*{c0f65d37-0df3-43f6-9338-8fc57453876a}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,5 +42,15 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7224ECA4-0C4A-4596-A28F-CC98ED400FE8}
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = TinyIoC.vsmdi
 	EndGlobalSection
 EndGlobal

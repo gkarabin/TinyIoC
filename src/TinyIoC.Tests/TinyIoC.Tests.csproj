@@ -63,25 +63,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Fakes\FakeLifetimeProvider.cs" />
-    <Compile Include="Helpers\AssertHelper.cs" />
-    <Compile Include="PlatformTestSuite\PlatformTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="TestData\BasicClasses.cs" />
-    <Compile Include="TestData\NestedClassDependencies.cs" />
-    <Compile Include="TestData\NestedInterfaceDependencies.cs" />
-    <Compile Include="TestData\TinyMessengerTestData.cs" />
-    <Compile Include="TestData\UtilityMethods.cs" />
-    <Compile Include="TinyIoCFunctionalTests.cs" />
-    <Compile Include="TinyIoCTests.cs" />
-    <Compile Include="TinyMessageSubscriptionTokenTests.cs" />
-    <Compile Include="TinyMessengerTests.cs" />
-    <Compile Include="TypeExtensionsTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TinyIoC.Tests.ExternalTypes\TinyIoC.Tests.ExternalTypes.csproj">
@@ -126,6 +113,7 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <Import Project="..\TinyIoC.Tests.Shared\TinyIoC.Tests.Shared.projitems" Label="Shared" />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

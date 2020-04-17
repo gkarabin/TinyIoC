@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>41ef3bed-892d-4d0a-a29e-3b2a7a4da13e</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>TinyIoC.Tests.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Fakes\FakeLifetimeProvider.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helpers\AssertHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PlatformTestSuite\PlatformTests.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TestData\BasicClasses.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TestData\NestedClassDependencies.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TestData\NestedInterfaceDependencies.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TestData\TinyMessengerTestData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TestData\UtilityMethods.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TinyIoCFunctionalTests.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TinyIoCTests.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TinyMessageSubscriptionTokenTests.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TinyMessengerTests.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TypeExtensionsTests.cs" />
+  </ItemGroup>
+</Project>
