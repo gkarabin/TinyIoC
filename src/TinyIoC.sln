@@ -17,12 +17,26 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyIoC.Tests.ExternalTypes
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TinyIoC.Tests.Shared", "TinyIoC.Tests.Shared\TinyIoC.Tests.Shared.shproj", "{41EF3BED-892D-4D0A-A29E-3B2A7A4DA13E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyIoC.Tests.NETCore", "TinyIoC.Tests.NETCore\TinyIoC.Tests.NETCore.csproj", "{90B10611-D346-41D9-ABCD-31176B2B0F3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TinyIoC.Tests.NETCore", "TinyIoC.Tests.NETCore\TinyIoC.Tests.NETCore.csproj", "{90B10611-D346-41D9-ABCD-31176B2B0F3E}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TinyIoC.Shared", "TinyIoC.Shared\TinyIoC.Shared.shproj", "{DD8F0114-5FE5-46FC-8471-F9FBDDA96EE6}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TinyIoC.Tests.ExternalTypes.Shared", "TinyIoC.Tests.ExternalTypes.Shared\TinyIoC.Tests.ExternalTypes.Shared.shproj", "{B97F42B1-A4B4-448F-9429-7B84C5C96022}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TinyIoC.Tests.ExternalTypes.NetStandard", "TinyIoC.Tests.ExternalTypes.NetStandard\TinyIoC.Tests.ExternalTypes.NetStandard.csproj", "{0BD0564C-3BAB-4DF5-A11F-07D042433953}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyIoC.NetStandard", "TinyIoC.NetStandard\TinyIoC.NetStandard.csproj", "{9516956F-C44F-464C-B43C-AB47777E0321}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		TinyIoC.Tests.ExternalTypes.Shared\TinyIoC.Tests.ExternalTypes.Shared.projitems*{0bd0564c-3bab-4df5-a11f-07d042433953}*SharedItemsImports = 5
 		TinyIoC.Tests.Shared\TinyIoC.Tests.Shared.projitems*{41ef3bed-892d-4d0a-a29e-3b2a7a4da13e}*SharedItemsImports = 13
+		TinyIoC.Shared\TinyIoC.Shared.projitems*{72ff4023-dedf-40d2-8e54-1bb3e9c38c5c}*SharedItemsImports = 4
+		TinyIoC.Shared\TinyIoC.Shared.projitems*{9516956f-c44f-464c-b43c-ab47777e0321}*SharedItemsImports = 5
+		TinyIoC.Tests.ExternalTypes.Shared\TinyIoC.Tests.ExternalTypes.Shared.projitems*{b97f42b1-a4b4-448f-9429-7b84c5c96022}*SharedItemsImports = 13
 		TinyIoC.Tests.Shared\TinyIoC.Tests.Shared.projitems*{c0f65d37-0df3-43f6-9338-8fc57453876a}*SharedItemsImports = 4
+		TinyIoC.Shared\TinyIoC.Shared.projitems*{dd8f0114-5fe5-46fc-8471-f9fbdda96ee6}*SharedItemsImports = 13
+		TinyIoC.Tests.ExternalTypes.Shared\TinyIoC.Tests.ExternalTypes.Shared.projitems*{f6422c73-c40a-489a-a822-387e3098b2f1}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +59,14 @@ Global
 		{90B10611-D346-41D9-ABCD-31176B2B0F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90B10611-D346-41D9-ABCD-31176B2B0F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90B10611-D346-41D9-ABCD-31176B2B0F3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BD0564C-3BAB-4DF5-A11F-07D042433953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD0564C-3BAB-4DF5-A11F-07D042433953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD0564C-3BAB-4DF5-A11F-07D042433953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BD0564C-3BAB-4DF5-A11F-07D042433953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9516956F-C44F-464C-B43C-AB47777E0321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9516956F-C44F-464C-B43C-AB47777E0321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9516956F-C44F-464C-B43C-AB47777E0321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9516956F-C44F-464C-B43C-AB47777E0321}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
