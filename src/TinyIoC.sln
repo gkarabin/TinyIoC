@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyIoC.Tests.ExternalTypes
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TinyIoC.Tests.Shared", "TinyIoC.Tests.Shared\TinyIoC.Tests.Shared.shproj", "{41EF3BED-892D-4D0A-A29E-3B2A7A4DA13E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyIoC.Tests.NETCore", "TinyIoC.Tests.NETCore\TinyIoC.Tests.NETCore.csproj", "{90B10611-D346-41D9-ABCD-31176B2B0F3E}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		TinyIoC.Tests.Shared\TinyIoC.Tests.Shared.projitems*{41ef3bed-892d-4d0a-a29e-3b2a7a4da13e}*SharedItemsImports = 13
@@ -39,6 +41,10 @@ Global
 		{F6422C73-C40A-489A-A822-387E3098B2F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6422C73-C40A-489A-A822-387E3098B2F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6422C73-C40A-489A-A822-387E3098B2F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90B10611-D346-41D9-ABCD-31176B2B0F3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90B10611-D346-41D9-ABCD-31176B2B0F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90B10611-D346-41D9-ABCD-31176B2B0F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90B10611-D346-41D9-ABCD-31176B2B0F3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
